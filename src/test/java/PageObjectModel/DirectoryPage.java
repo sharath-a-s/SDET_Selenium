@@ -22,9 +22,11 @@ public void searchByName()
 Actions act =new Actions(driver);	
 act.moveToElement(driver.findElement(SearchName));
 }
+
 public void setSearchName(String user) {
     driver.findElement(SearchName).sendKeys(user);
 }
+
 public void Searchbuttonclick() {
     driver.findElement(Searchbutton).click();
 }
